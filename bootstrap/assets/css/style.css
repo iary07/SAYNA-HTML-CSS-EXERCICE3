@@ -1,0 +1,49 @@
+body {
+        margin: 0%;
+        padding: 0%;
+        font-size: .9rem;
+        font-family: Raleway, Arial, sans-serif;
+    }
+
+    a{
+      color:#3d9f96;
+    }
+#nom {
+    font-weight: bold;
+    color:#3d9f96;
+}
+.image{
+    position: absolute;
+    display:none; 
+}
+button{
+    color: #FFFFFF;
+    background-color:#3d9f96;
+    border-radius: 30px;
+    border: #3d9f96;
+    padding:3px 20px;
+}
+figcaption{
+    font-weight: bold;
+    margin-top: 5%;
+}
+.game{
+     position:absolute;
+     display:none;
+} 
+
+@media all and (max-width:600px){
+    .aa, .lol, .play{
+        display:none;
+    }
+    .game{
+        display: block;
+    }
+
+    
+    
+    
+    
+
+}
+
